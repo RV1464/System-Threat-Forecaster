@@ -1,0 +1,84 @@
+Files given :
+
+train.csv - the training set
+test.csv - the test set
+sample_submission.csv - a sample submission file in the correct format
+
+Columns present :
+
+'MachineID' : Unique Identifier for Each Machine
+'ProductName': Name of the Installed Antivirus Product
+'EngineVersion': Version of the Antivirus Engine
+'AppVersion' : Version of the Antivirus Application
+'SignatureVersion': Version of the Antivirus Signatures
+'IsBetaUser': Whether the User is on a Beta Version
+'RealTimeProtectionState': Status of Real-Time Protection
+'IsPassiveModeEnabled' : Whether Passive Mode is Enabled
+'AntivirusConfigID' : Identifier for Antivirus Configuration
+'NumAntivirusProductsInstalled' : Number of Installed Antivirus Products
+'NumAntivirusProductsEnabled' : Number of Enabled Antivirus Products
+'HasTpm' : Whether the Machine has a Trusted Platform Module (TPM)
+'CountryID': Identifier for the Country of the Machine
+'CityID' : Identifier for the City of the Machine
+'GeoRegionID' : Identifier for the Machine's Organization or Industry
+'LocaleEnglishNameID' : English Locale Name ID of the Current User
+'PlatformType' : Platform Type Derived from OS and Processor Information
+'Processor' : Processor Architecture of the Installed OS
+'OSVersion' : Operating System Version
+'OSBuildNumber' : OS Build Number
+'OSProductSuite' : Product Suite Mask for the Operating System
+'OsPlatformSubRelease' : Sub-release of the Operating System
+'OSBuildLab' : Detailed OS Build Information
+'SKUEditionName' : SKU Edition of the Operating System
+'IsSystemProtected' : Whether the System has Active Protection
+'AutoSampleSubmissionEnabled' : Auto Sample Submission Setting
+'SMode' : Whether the Device is Running in S Mode
+'IEVersionID' : Internet Explorer Version Identifier
+'FirewallEnabled' : Whether Windows Firewall is Enabled
+'EnableLUA',
+'MDC2FormFactor',
+'DeviceFamily',
+'OEMNameID',
+'OEMModelID',
+'ProcessorCoreCount',
+'ProcessorManufacturerID',
+'ProcessorModelID',
+'PrimaryDiskCapacityMB',
+'PrimaryDiskType',
+'SystemVolumeCapacityMB',
+'HasOpticalDiskDrive',
+'TotalPhysicalRAMMB',
+'ChassisType',
+'PrimaryDisplayDiagonalInches',
+'PrimaryDisplayResolutionHorizontal',
+'PrimaryDisplayResolutionVertical',
+'PowerPlatformRole',
+'InternalBatteryNumberOfCharges',
+'NumericOSVersion',
+'OSArchitecture',
+'OSBranch',
+'OSBuildNumberOnly',
+'OSBuildRevisionOnly',
+'OSEdition',
+'OSSkuFriendlyName',
+'OSInstallType',
+'OSInstallLanguageID',
+'OSUILocaleID',
+'AutoUpdateOptionsName',
+'IsPortableOS',
+'OSGenuineState',
+'LicenseActivationChannel',
+'IsFlightsDisabled',
+'FlightRing',
+'FirmwareManufacturerID',
+'FirmwareVersionID',
+'IsSecureBootEnabled',
+'IsVirtualDevice',
+'IsTouchEnabled',
+'IsPenCapable',
+'IsAlwaysOnAlwaysConnectedCapable',
+'IsGamer',
+'RegionIdentifier',
+'DateAS' : Malware signature dates ,
+'DateOS' : timestamps for OSVersion which gives the time that the OS was last updated
+'target'
